@@ -312,7 +312,7 @@ end
 
 local Tab = Window:CreateTab("Update", 4483362458) -- Title, Image
 
-
+local Paragraph = Tab:CreateParagraph({Title = "14 11 2025", Content = "New button brookhaven Tiger x"})
 
 Rayfield:Notify({
    Title = "Luna hub",
@@ -350,6 +350,13 @@ local Button = Tab:CreateButton({
    Name = "Sander XY",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/kigredns/testUIDK/refs/heads/main/panel.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Tiger X",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/BalintTheDevXBack/Games/refs/heads/main/TIGER_X_Brookhaven"))()
    end,
 })
 
