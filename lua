@@ -314,6 +314,10 @@ local Tab = Window:CreateTab("Update", 4483362458) -- Title, Image
 
 local Paragraph = Tab:CreateParagraph({Title = "14 11 2025", Content = "New button brookhaven Tiger x"})
 
+local Paragraph = Tab:CreateParagraph({Title = "20 11 2025", Content = "New button brookhaven Chaos hub and bruton hub"})
+
+local Paragraph = Tab:CreateParagraph({Title = "20 11 2025", Content = "New Tab Sus"})
+
 Rayfield:Notify({
    Title = "Luna hub",
    Content = "thanks you for script made Kickboxing267/KICKALL",
@@ -340,9 +344,23 @@ local Button = Tab:CreateButton({
 local Tab = Window:CreateTab("brookhaven", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
+   Name = "Chaos hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://pandadevelopment.net/virtual/file/edf95b2a45470046"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "Lyra hub",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/repositoryredzlib/Lyrapainel/refs/heads/main/Main.txt"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Bruton hub",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/bruton-lua/Brookhaven/refs/heads/main/BRUTON"))()
    end,
 })
 
@@ -410,5 +428,21 @@ local Button = Tab:CreateButton({
    Name = "Solara hub",
    Callback = function()
    loadstring(game:HttpGet("https://pastefy.app/Wfe784Xn/raw"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Sus", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "FE jerk off R6",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/wa3v2Vgm/raw"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "FE jerk off R15",
+   Callback = function()
+   loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
    end,
 })
