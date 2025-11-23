@@ -318,6 +318,10 @@ local Paragraph = Tab:CreateParagraph({Title = "20 11 2025", Content = "New butt
 
 local Paragraph = Tab:CreateParagraph({Title = "20 11 2025", Content = "New Tab Sus"})
 
+local Paragraph = Tab:CreateParagraph({Title = "23 11 2025", Content = "New Tab [PVP] PVP Arena"})
+
+local Paragraph = Tab:CreateParagraph({Title = "23 11 2025", Content = "New Button [PVP] PVP Arena Just a script"})
+
 Rayfield:Notify({
    Title = "Luna hub",
    Content = "thanks you for script made Kickboxing267/KICKALL",
@@ -444,5 +448,14 @@ local Button = Tab:CreateButton({
    Name = "FE jerk off R15",
    Callback = function()
    loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
+   end,
+})
+
+local Tab = Window:CreateTab("[PVP] PVP Arena", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Just a script",
+   Callback = function()
+   loadstring(game:HttpGet(('https://raw.githubusercontent.com/lololofffff/just/refs/heads/main/main'),true))()
    end,
 })
