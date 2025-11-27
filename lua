@@ -322,6 +322,8 @@ local Paragraph = Tab:CreateParagraph({Title = "23 11 2025", Content = "New Tab 
 
 local Paragraph = Tab:CreateParagraph({Title = "23 11 2025", Content = "New Button [PVP] PVP Arena Just a script"})
 
+local Paragraph = Tab:CreateParagraph({Title = "27 11 2025", Content = "New Button Fling things and people RuHub"})
+
 Rayfield:Notify({
    Title = "Luna hub",
    Content = "thanks you for script made Kickboxing267/KICKALL",
@@ -388,6 +390,16 @@ local Button = Tab:CreateButton({
    Name = "Venom X",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/fratelevostru9999/src/refs/heads/main/VenomX%20Fling%20Things%20And%20People",true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "RuHub",
+   Callback = function()
+   local Main = game:HttpGet("https://gitlab.com/cooldawghaha/gitlabswitch/-/raw/main/MainBranch?ref_type=heads")
+local Alternate = game:HttpGet("https://gitlab.com/cooldawghaha/gitlabswitch/-/raw/main/AlternateBranch.lua?ref_type=heads") -- ALWAYS TRY MAIN BRANCH FIRST, AS THIS ONE HAS NOT BEEN TESTED FOR BUGS
+getgenv().saveconfig = false -- set to true if u want ur configs to be saved each time!
+loadstring(Main)()
    end,
 })
 
